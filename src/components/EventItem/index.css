@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.list-items {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 10px;
+}
+.event-img {
+  height: 150px;
+  width: 270px;
+}
+.dance-type {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.location {
+  font-size: 12px;
+}
+.img-btn {
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+}
+.active {
+  border: 2px solid #2dd4bf;
+}

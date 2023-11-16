@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  min-width: 100vw;
+  padding: 0px;
+}
+.left-right-container {
+  display: flex;
+  flex-direction: row;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #3a4b63;
+  width: 60%;
+  padding: 10px;
+}
+.heading {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 13px;
+}
+.event-cards-container {
+  display: flex;
+}
+.ul-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+
+  padding: 0px;
+}

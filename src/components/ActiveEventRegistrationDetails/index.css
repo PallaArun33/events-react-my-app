@@ -1,0 +1,68 @@
+/* Write your CSS here*/
+.active-registration-details-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.initial-para {
+  font-size: 20px;
+  color: #64748b;
+  font-weight: bold;
+  width: 300px;
+  text-align: center;
+}
+.register-view-container,
+.registered-container,
+.registration-closed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.yet-to-register-img {
+  height: 350px;
+  width: 300px;
+}
+.yet-to-register-para {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  width: 400px;
+  color: #64748b;
+}
+.register-btn {
+  width: 250px;
+  background-color: #0967d2;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border-color: #0967d2;
+}
+.registered-img {
+  height: 150px;
+  width: 150px;
+}
+.registered-para,
+.closed-para {
+  font-size: 25px;
+  font-weight: bold;
+  width: 300px;
+  color: #3a4b63;
+  text-align: center;
+}
+.registration-closed-img {
+  height: 200px;
+  width: 200px;
+}
+.reopen-para {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  color: #64748b;
+  margin-top: 0px;
+}
